@@ -1,0 +1,98 @@
+.nav-container {
+  height: 70px;
+}
+
+.nav-wrapper {
+  padding: 10px 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.nav-center {
+  flex: 1;
+  text-align: center;
+}
+
+.nav-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav-lang {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.nav-search-container {
+  border: 0.5px solid lightgray;
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+  padding: 5px;
+}
+
+
+.nav-input {
+  border: none;
+}
+.nav-input:focus .nav-search-container {
+  border: 1px solid red;
+}
+.nav-input:focus{
+  border: 1px solid red;
+
+}
+
+.nav-logo {
+  font-weight: bold;
+}
+
+.nav-menuItem {
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 25px;
+  color: black;
+}
+
+.logout-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /* min-width: 160px; */
+
+}
+
+.logout-menu {
+  display: none;
+  cursor: pointer;
+}
+
+.logout-text {
+  padding: 12px 5px;
+  padding-bottom: 15px;
+  background-color: teal;
+  color: white;
+  /* right:5px; */
+  left:-20px;
+  position: absolute;
+}
+
+.logout-container:hover .logout-menu {
+  display: block;
+}
+
+.hello-text{
+  display: flex;
+  align-items: center;
+  gap:5px;
+  font-weight: 600;
+}
